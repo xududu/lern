@@ -20,5 +20,11 @@ cat /root/log.txt'''
       }
     }
 
+    stage('') {
+      steps {
+        input 'abc'
+      }
+    }
+
   }
 }
