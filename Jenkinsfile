@@ -14,7 +14,8 @@ pipeline {
 
     stage('2') {
       steps {
-        sh 'echo \'test\''
+        sh '''echo \'test\'
+ls /root/'''
       }
     }
 
