@@ -15,6 +15,7 @@ pipeline {
     stage('2') {
       steps {
         sh '''echo \'test\'
+echo "nginginline" >> /root/log.txt
 cat /root/log.txt'''
       }
     }
