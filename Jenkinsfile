@@ -16,11 +16,11 @@ pipeline {
       steps {
         sh '''echo \'test\'
 echo "nginginline" >> /root/log.txt
-cat /root/log.txt'''
+cat jenorce'''
       }
     }
 
-    stage('') {
+    stage('error') {
       steps {
         input 'abc'
       }
