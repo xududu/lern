@@ -16,7 +16,8 @@ pipeline {
       steps {
         sh '''echo \'test\'
 echo "nginginline" >> /root/log.txt
-cat jenorce'''
+cat jenorce
+sleep 10'''
       }
     }
 
